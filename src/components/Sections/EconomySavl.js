@@ -101,7 +101,7 @@ const Img = styled.img`
 const ImgDop = styled.img`
     position: absolute;
     bottom: -47px;
-    right: 65px;
+    right: ${props => props.Right ? '351px': '65px'};
     -webkit-filter: drop-shadow(0 11px 22px rgba(7, 19, 104, 0.05));
     filter: drop-shadow(0 11px 22px rgba(7, 19, 104, 0.05));
     max-width: 100%;
@@ -234,7 +234,7 @@ export default class Economy extends Component {
                     </picture>
                     <picture>
                       <source srcSet={`${change2Dop}, ${change2DopLarge} 2x`}/>
-                      <ImgDop src={change2Dop} alt="" />
+                      <ImgDop Right src={change2Dop} alt="" />
                     </picture>
                   </Animated>
                 </ItemWrapper>

@@ -7,6 +7,7 @@ import { Container, RowComp } from '../StyleComp/';
 import advantBg from '../../img/advant-bg.jpg';
 
 
+
 const Section = styled.div`
   padding: 91px 0 131px;
   background-image: url(${advantBg});
@@ -36,7 +37,7 @@ const Logo = styled.div`
   margin-left: -20px;
   width: 212px;
   height: 178px;
-  > svg {
+  > img {
     width: 212px;
     height: 178px;
   }
@@ -84,7 +85,7 @@ export default class Secure extends Component {
                 <ItemWrapper>
                   <Animated animationIn="fadeInUp" animationInDelay={100} isVisible={onScreen}>
                     <Logo>
-
+                     
                     </Logo>
                     <Content>
                       <h3>User-exclusive security</h3>
@@ -96,7 +97,7 @@ export default class Secure extends Component {
                 <ItemWrapper>
                 <Animated animationIn="fadeInUp" animationInDelay={300} isVisible={onScreen}>
                   <Logo>
-
+                    
                   </Logo>
                   <Content>
                     <h3>Accelerated performance</h3>
@@ -112,3 +113,26 @@ export default class Secure extends Component {
     )
   }
 }
+
+
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
